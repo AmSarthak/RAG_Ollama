@@ -1,12 +1,10 @@
-# RAG_Ollama
-Here’s a complete and professional README file tailored for your RAG-based PDF QA software using Ollama and LLaMA 3. You can copy this directly to your GitHub repo's `README.md` file:
 
----
-
-# 📄 RAG-based PDF Question Answering using Ollama + LLaMA 3
+# 📄 Homeopathic medicine finder by syptoms using RAG and Ollama.
 
 A Retrieval-Augmented Generation (RAG) system that allows you to upload any PDF and interactively ask questions about its content. This project leverages the power of [Ollama](https://ollama.com/) to run local LLaMA 3 models for secure and efficient inference, and uses embeddings and vector search for semantic retrieval from documents.
 
+Data used is a homeopathic REPERTORY of the Homeopathic Materia Medica by J. T. KENT, M. D. (Professor of Materia Medica and Homeopathics in Philadelphia PostGraduate School of Homoeopathies). 
+Open source PDF data.
 ---
 
 ## 🚀 Features
