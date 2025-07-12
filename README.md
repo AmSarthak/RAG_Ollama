@@ -1,5 +1,5 @@
 
-# 📄 Homeopathic medicine finder by syptoms using RAG and Ollama.
+# 📄 Homeopathic medicine finder by symptoms using RAG and Ollama.
 
 A Retrieval-Augmented Generation (RAG) system that allows you to upload any PDF and interactively ask questions about its content. This project leverages the power of [Ollama](https://ollama.com/) to run local LLaMA 3 models for secure and efficient inference, and uses embeddings and vector search for semantic retrieval from documents.
 
@@ -30,7 +30,7 @@ Open source PDF data.
 
 * **Language Model:** LLaMA 3 via [Ollama](https://ollama.com/)
 * **Frameworks:** Python, LangChain
-* **Embedding Model:** OllamaEmbeddings
+* **Embedding Model:** nomic-embed-text
 * **Vector Store:** ChromaDB
 * **PDF Parsing:** PyPDFLoader
 
@@ -41,8 +41,7 @@ Open source PDF data.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/rag-pdf-qa.git
-cd rag-pdf-qa
+git clone https://github.com/amsarthak/RAG_Ollama.git
 ```
 
 ### 2. Install and run Ollama
@@ -68,7 +67,8 @@ This will pull and start the LLaMA 3 model.
 
 ## 🧱 Future Improvements
 
-* Add a web UI using Streamlit or Gradio
+* Add a web UI using React
+* Make WebAPI using Flask/Django.
 * Support for multiple documents
 * OCR for scanned PDFs
 * Use local embeddings via Ollama (`llama3:instruct-embed` when available)
