@@ -5,6 +5,11 @@ A Retrieval-Augmented Generation (RAG) system that allows you to upload any PDF 
 
 Data used is a homeopathic REPERTORY of the Homeopathic Materia Medica by J. T. KENT, M. D. (Professor of Materia Medica and Homeopathics in Philadelphia PostGraduate School of Homoeopathies). 
 Open source PDF data.
+
+Screenshot
+
+<img width="857" height="264" alt="Screenshot 2025-07-12 at 9 20 05 PM" src="https://github.com/user-attachments/assets/bed22f83-2315-4c60-abaf-ffd00690996e" />
+
 ---
 
 ## 🚀 Features
